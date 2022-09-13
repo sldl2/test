@@ -22,5 +22,5 @@ $config = array(
 
 new \Pixie\Connection('mysql', $config, 'QB');
 
-$a=3;
+
 ?>
