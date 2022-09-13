@@ -8,6 +8,7 @@ $users="root";
 $pass="";
 
 // Create a connection, once only.
+
 $config = array(
     'driver'    => 'mysql', // Db driver
     'host'      =>$localhost,
@@ -21,5 +22,5 @@ $config = array(
 
 new \Pixie\Connection('mysql', $config, 'QB');
 
-
+$a=3;
 ?>
